@@ -12,8 +12,8 @@ const sendingMail = asyncHandler((mailDetails) =>{
     const mailTransport = nodeMailer.createTransport({
         service: "gmail",
         auth: {
-            user: 'ganesh.maganti12@gmail.com',
-            pass: 'Ganiaslu777'
+            user: //write the gmail id,
+            pass: // write the gmail password
         }
     })
 
